@@ -18,15 +18,18 @@
 
   <script type="text/babel">
   
-  const array = ["a","b","c","d","e","f","g"]
+ 
   
   class MakeTable extends React.Component{
     render(){
+    
+      const date = ["aaa","bbb","ccc","ddd","eee","fff","ggg"];
+      
      return(
        <table>
        <tbody>
        <tr>
-       {array.map((e)=>{
+       {date.map((e)=>{
         <td>{e}</td>
          }
         )
