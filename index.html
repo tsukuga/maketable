@@ -27,6 +27,7 @@
       
      return(
      
+     <React.Fragment>
      {date.map((e) => (
        <table>
        <tbody>
@@ -38,10 +39,12 @@
        )
       )
      }
+     </React.Fragment>
     )
    }
   }
    
+  
     ReactDOM.render(<MakeTable/>, document.getElementById('root'));
   </script>
   </body>
