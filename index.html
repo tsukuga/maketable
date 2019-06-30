@@ -26,21 +26,21 @@
       const date = ["aaa","bbb","ccc","ddd","eee","fff","ggg"];
       
      return(
+     
+     {date.map((e)=>{
        <table>
        <tbody>
        <tr>
-       {date.map((e)=>{
         <td>{e}</td>
-         }
-        )
-       }
        </tr>
        </tbody>
        </table>
+       }
+      )
+      }
      )
-    }
    }
-   
+   }
    
     ReactDOM.render(<MakeTable/>, document.getElementById('root'));
   </script>
